@@ -14,7 +14,8 @@
     <title>Frontend Bosscamp</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
       <div class="container">
         <a href="#" class="navbar-brand">Frontend Bootcamp</a>
 
@@ -42,6 +43,34 @@
         </div>
       </div>
     </nav>
+
+    <!-- ShowCase -->
+    <!-- bg-dark background-dark / text-light text color white / p-5 padding 5 pixel / text-center align text center  / text-sm-start text small align starting-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+      <!-- which sets a max-width at each responsive breakpoint -->
+      <div class="container">
+        <!-- d-flex dispaly flex / d-sm-flex don't display flex when it hit the breakpoint -->
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning"> Web Developer </span></h1>
+            <!-- lead makes the text bigger / my-4 margin-top-and-bottom -->
+            <p class="lead my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              odit sequi labore earum error possimus repellendus amet dolorum
+              deserunt aut.
+            </p>
+            <!-- btn-primary blue-color / btn-lg button large -->
+            <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+          </div>
+          <!-- fluid 100% / w-50 width 50% /  d-none display none / d-sm-block when the screen is small display block -->
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/showcase.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
